@@ -1,0 +1,138 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background-color: #FFD700; /* Changed to a gold-like color */
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 10px; /* Slightly rounded border */
+    transition: all 0.3s ease-in-out;
+}
+
+select {
+    appearance: none;
+    outline: none;
+    background-color: #FFD700; /* Changed to a gold-like color */
+    padding: 0.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px; /* Slightly rounded border */
+    margin-right: 0.3rem;
+    cursor: pointer;
+    color: #0E141B;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}
+
+/* End Global Styles */
+
+.main-container {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E141B;
+}
+
+.clock-container {
+    padding: 2rem;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1890FF;
+    border-radius: 20px; /* Slightly rounded border */
+}
+
+.current-time {
+    font-size: 2rem;
+    color: black;
+}
+
+.alarm-form {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.submit-button {
+    border-color: black;
+    border: 10px;
+    border-radius: 20px; /* Slightly rounded border */
+    font-weight: bold;
+    background-color: #FF4500; 
+    color: white; 
+}
+
+.set-alarm-container {
+    width: 100%;
+}
+
+.set-alarm-container .set-alarm-container-title {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem; /* Increased font size */
+}
+
+.alarm {
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 1rem; /* Increased padding */
+    align-items: center;
+    background-color: #32CD32; /* Changed to a green color */
+}
+
+.alarm .delete-alarm {
+    border-radius: 20px; /* Slightly rounded border */
+    background-color: rgba(230, 13, 13, 0.918);
+    font-weight: bold;
+    color: wheat;
+    font-size: 1.2rem; /* Increased font size */
+}
+
+.time {
+    color: #0E141B;
+    font-size: 1.2rem; /* Increased font size */
+    font-weight: bold;
+}
+
+.btn:focus,
+.btn:hover {
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8); /* Changed the box-shadow color */
+}
+
+.page-title {
+    background-color: #0E141B;
+    align-items: center;
+    text-align: center;
+    color: wheat;
+    padding: 1rem; 
+}
+
+/* Style for devices with a screen size less than 768px */
+@media only screen and (max-width: 768px) {
+    .main-container {
+        padding: 2rem; 
+    }
+    .clock-container {
+        justify-content: center;
+        border-radius: 20px;
+        width: 80%; 
+        min-height: auto;
+    }
+}
