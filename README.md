@@ -1,54 +1,39 @@
-﻿# Alarm-Clock using Vanilla JavaScript
+# Alarm-Clock using Vanilla JavaScript
 
-<li>This is a repository for Alarm Clock Developed using Vanilla JavaScript, HTML, CSS.</li>
-<br>
-<li> It is developed to create a soothing Experience with powerful features and clean interface.</li>
-<br>
+This repository contains the code for an Alarm Clock developed using Vanilla JavaScript, HTML, and CSS. The purpose of this project is to create a soothing experience with powerful features and a clean interface.
 
-# Problem Statement
+## Problem Statement
 
-Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks allowed for Javascript (you can use any css framework like Bootstrap).
-<br>
+Create an alarm clock using ONLY vanilla JavaScript, with no libraries or frameworks allowed for JavaScript (you can use any CSS framework like Bootstrap).
 
-# Features Required
+## Features Required
 
-- <b>Clock face</b><br>
+### Clock Face
 
-  Clock showing the current time (seconds,mins,hrs should change as time changes)
+- Display the current time with the clock face updating in real-time (seconds, minutes, hours).
 
-- <b>Set Alarm</b> <br>
+### Set Alarm
 
-  - Provide input boxes to set an alarm (hr,min,sec, am/pm)
-  - Once the sets the time and click “Set Alarm” button, add that alarm to the alarms list below
-  - When the alarm goes of just use JS alert function to alert in the browser
+- Provide input boxes to set an alarm (hour, minute, second, AM/PM).
+- Once the user sets the time and clicks the "Set Alarm" button, add that alarm to the alarms list below.
+- When the alarm goes off, use the JavaScript `alert` function to notify the user.
 
-- <b>Alarms list</b> <br>
+### Alarms List
 
-  - Display a list of all the alarms set by user
- 
-- <b>Delete alarm</b> <br>
-  - For each alarm give a delete button to delete the alarm
-  - When the user deletes an alarm make sure it “does not alerts the user”
+- Display a list of all alarms set by the user.
 
-<br>
+### Delete Alarm
 
-# PRODUCT DEMO
-https://gregarious-mandazi-e355f7.netlify.app/
+- Provide a delete button for each alarm to remove it from the list.
+- Ensure that deleting an alarm does not trigger an alert.
 
+## Product Demo
 
-# LINKS
-https://gregarious-mandazi-e355f7.netlify.app/
+Check out the [product demo](https://gregarious-mandazi-e355f7.netlify.app/).
 
+## Links
 
+- [Live Demo](https://gregarious-mandazi-e355f7.netlify.app/)
 
---------------------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+---
 
-
-
-
-
-
-
-
- 
